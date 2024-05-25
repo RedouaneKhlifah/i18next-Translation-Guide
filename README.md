@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# MotoRush Resto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is  Guide to how to use Translate your React App with i18next
 
-Currently, two official plugins are available:
+## Running the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run the project, follow these steps:
 
-## Expanding the ESLint configuration
+1. Install dependencies by running: `npm install`
+2. Start the React application: `npm run dev`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Dependencies
 
-- Configure the top-level `parserOptions` property like this:
+- axios: ^1.7.0
+- react: ^18.2.0
+- react-dom: ^18.2.0
+- react-i18next: ^14.1.2
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Credits
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This project was developed by Redouane khliafh

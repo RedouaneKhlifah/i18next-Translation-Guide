@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "./App.css";
+import base from "./translation/transFiles/baseTransaltion";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <p>{t("paragraph")}</p>
+      <p>{t(base["paragraph test"])}</p>
       <header className="App-header">
         <button className="btn" onClick={() => changeLanguage("en")}>
           english
